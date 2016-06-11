@@ -1,0 +1,32 @@
+- first_name: Nicola
+  last_name: Hughes
+  image: nicola.jpg
+  summary: Data Journalist to Junior Developer at ThoughtWorks
+  testimonial: I can code and I got a job and I'm now looking forward to working in the tech industry and not just media.
+  cohort_month: August
+  cohort_year: 2015
+  categories:
+    - career changer
+    - female
+  case_study:
+    - question: What were you doing before joining Makers Academy?
+      answer: I was working as a data journalist at the Sunday Times.
+    - question: What made you want to start learning to code in the first place?
+      answer: I had been doing some programming for work and I wanted to do it full time.
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
+      answer: I talked to some developers and they told me to do some research and pointed out Makers Academy.
+    - question: What did you find difficult during the course?
+      answer: I found the work-life balance difficult. Everything from eating, laundry, to sleeping properly!
+    - question: What happened during/after graduation and where are you job-wise?
+      answer: I was an alumni helper and I went to a meetup based at ThoughtWorks and the office manager sent my details to their graduate recruiter and it went from there.
+    - question: How has your life changed since graduation?
+      answer: I can code, I got a job and I'm now looking forward to working in the tech industry and not just in media.
+    - question: What advice would you give to people thinking of changing career?
+      answer: Be brave and go for it. You will get a lot of support from everyone.
+    - question: What would you say to people who say £8,000 is very expensive?
+      answer: I'd say if you need to change your life then the time you wait to do that is more costly to your wellbeing.
+    - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
+      answer: My biggest worry was not knowing what I wanted to do with the skills I gained and ThoughtWorks ticks every single box in terms of what I want right now so that worry is now gone.
+    - question: Sum up your Makers Academy experience
+      answer: Be brave and go for it. You will get a lot of support from everyone.
+

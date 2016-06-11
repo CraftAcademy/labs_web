@@ -1,0 +1,56 @@
+- backgrounded ||= true
+- page ||= :default
+- language ||= :se
+
+- if page == :employers
+
+  %section.hero--apply{style: backgrounded ? "background-image: url(#{image_path('backgrounds/splash_2.jpg')});": ''}
+    .container
+      .centered-row
+        .column
+          %h4 Letar du efter utvecklare till ditt team?
+          %h2 Bli en Hiring partner
+          %p
+            %strong
+              Vi erbjuder en ny väg att hitta medarbetare till din organisation. Med oss lär du känna kandidaterna innan du ger dem ett erbjudande.
+      .button-row
+        %p
+          = link_to 'Kontakta oss', 'http://doodle.com/makers_thomas', class: 'button button--horizontal', target: '_blank'
+          = link_to 'Jag vill anställa', config.hire_form_url, class: 'button button--vertical button--large', target: '_blank'
+          = link_to 'Läs mer', '/employers.html', class: 'button button--horizontal'
+
+- else
+
+  %section.hero--apply{style: backgrounded ? "background-image: url(#{image_path('backgrounds/splash_2.jpg')});": ''}
+    .container
+      .centered-row
+        .column
+          - if language == :se
+            %h2 Ansök nu
+            %p
+              %strong Vi jobbar med att ta in nya deltagare löpande. Ansökningsprocessen tar ca 2 veckor och omfattar en intervju och du förväntas delta i en förberedande distanskurs.
+            %h4 Vi erbjuder olika typer av finansieringsalernativ.
+          - else
+            %h2 Apply now
+            %p
+              %strong
+                We are starting a new course every 8 weeks and continuously review and accept applicants.
+      .button-row
+        %p
+          - if language == :se
+            - if page == :payment
+              = link_to 'Möt tidigare studenter', '/graduates.html', class: 'button button--horizontal'
+            - else
+              = link_to 'Betalningsplaner', '/payment.html', class: 'button button--horizontal'
+
+            = link_to 'Ansök', config.apply_form_url, class: 'button button--vertical button--large'
+
+            - if page == :students
+              = link_to 'Vår läroplan', '/curriculum.html', class: 'button button--horizontal'
+            - else
+              = link_to 'Läs mer', '/students.html', class: 'button button--horizontal'
+          - else
+            - if current_page.url == '/pretoria/'
+              = link_to 'Apply', config.apply_sa_form_url, class: 'button button--vertical button--large'
+            - else
+              = link_to 'Apply', config.apply_form_url, class: 'button button--vertical button--large'

@@ -1,0 +1,10 @@
+- data.htaccess.errors.each do |code, document|
+  ErrorDocument #{code} #{document}
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^makersacademy.se
+RewriteRule (.*) http://craftacademy.se/$1 [R=301,L]
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www.makersacademy.se
+RewriteRule (.*) http://craftacademy.se/$1 [R=301,L]

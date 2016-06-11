@@ -1,0 +1,23 @@
+%section.hero
+  .container
+    .row
+      %h2 Kursdatum
+      %h4.leader Distans eller On-site? Du bestämmer
+      %p.copy--left
+        %strong
+          Anmäl dig i tid - urvalsprocessen tar ca två veckor och du måste gå igenom en intervju innan du blir antagen. Antal utbildningsplatser är begränsat. Du kan ta del av Craft Academy på distans eller genom att närvara i någon av våra utbildningslokaler i Göteborg och Stockholm.
+    .centered-row
+      %table.responsive-table
+        %thead
+          %tr
+            %th Förberedande kurs
+            %th Kursstart
+            %th Examen
+            %th Plats
+        %tbody
+          - Intake.future_dates.each do |intake|
+            %tr
+              %td{data:{header: 'Förberedande kurs'}}= intake.precourse_start_date.strftime('%-d %B %Y')
+              %td{data:{header: 'Kursstart'}}= intake.start_date.strftime('%-d %B %Y')
+              %td{data:{header: 'Examen'}}= intake.end_date.strftime('%-d %B %Y')
+              %td{data:{header: 'Plats'}}= intake.locations

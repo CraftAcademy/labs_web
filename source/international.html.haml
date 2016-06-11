@@ -1,0 +1,88 @@
+- description 'Craft Academy is a leading Web Developer Bootcamp in Scandinavia. Learn to code in 12 Weeks by enrolling on one of our programming / web development courses! Learn Ruby, JavaScript and the best software practices.'
+%section.hero-splash{style: "background-image: url(#{image_path('backgrounds/splash_gothenburg.jpg')});"}
+  .container
+    .centered-row
+      %h1 Learn the craft of coding in Scandinavia
+      %h4.subheader
+        = 'Spend 12 weeks with Sweden’s #1 Developer Bootcamp<br>and hit the ground running.'.html_safe
+      = partial :'email-capture', locals: { language: 'en' }
+
+%section
+  .container
+    %article
+      %h2 Why should you Learn to code?
+      %h4 Take a giant leap in t0 the software development industry
+      %p.copy--left
+        The concept of Craft Academy Bootcamp is simple, it is a 12 week intensive coding camp, aimed at teaching you the fundamentals
+        of web development, enabling you to hit the ground running – and keep running.
+        But what is important is that modern engineering practices are considered to be part of this foundation.
+        As a student, you work from day one with automated testing**, continuous integration and deployment,
+        and other essential skills. Meaning that when you enter the workforce and are faced with problem,
+        your instinct will be to solve right rather than just hacking a solution together.
+      %p.copy--left
+        During a 12 week immersive, instructor led, on-site camp, we prepare students with little/no experience in programming for a career in tech and teach them the fundamentals of web development. We teach all the latest technologies, like Ruby on Rails, HTML5, CSS, Javascript, jQuery, SQL, Ajax but also skills like Object Oriented Design, Test Driven Development, Agile Methodology and version control with Git.
+
+    .half-slider.half-slider--reverse
+      .half-slider-row
+        .hide-desktop
+          .copy.copy--right
+            %h4.leader Craft Academy's unique
+            %h2 Curriculum
+            %p.copy--left
+              One of the biggest challenges that you might face when you learn how to code, is to know in which order you should learn things in.
+              We deal with this challenge by offering a unique curriculum developed by professional software engineers and based on real cases and modern best practices.
+            %p.copy--left
+              At Craft Academy we've chosen Ruby, with all its access to a wide array of frameworks and tools, as the first back end language we introduce to students. For front end development, we will be using Javascript with accompanying frameworks that makes development of rich applications possible - both for a desktop and mobile user experience (AngularJS and Ionic).
+            .button-row.shift-to-bottom
+              %p
+                = link_to 'Education Manifesto', 'https://blog.craftacademy.se/education-manifesto/', class: 'button button--horizontal', target: '_blank'
+        .column
+          .slider
+            .slide
+              %h3 Ruby
+              %p
+                Clean, elegant, easy to read. It is for the Ruby programming language. As the name ‘Ruby’ speaks for itself, the language is designed to be a joy to use thanks to readability and elegance.
+            .slide
+              %h3 Ruby on Rails
+              %p
+                Ruby on Rails is highly suitable for websites that require a lot of content input, storage and management because you would be easily navigating the site, uploading and managing content.
+            .slide
+              %h3 HTML5
+              %p
+                HTML is the building material of the web. We'll guide you towards building beautiful, structured webpages and altering content dynamically, both on the server and client-side.
+            .slide
+              %h3 JavaScript
+              %p
+                JavaScript has rapidly become the biggest programming language in the world. You can use it anywhere: to animate text on a page, to run a high-throughput server, and to enable your coffee machine to work over WiFi.
+            .slide
+              %h3 git
+              %p
+                git is the world's most popular way to manage, share, and distribute code. We embed best GitHub practices from the get-go, which perfectly suits our focus on Pair Programming - and our Hiring Partners..slide
+              %h3
+                = 'Agile<br>software<br>development'.html_safe
+              %p
+                It promotes adaptive planning, evolutionary development, early delivery, continuous improvement, and encourages rapid and flexible response to change.
+        .column.show-desktop
+          .copy.copy--right
+            %h4.leader Craft Academy's unique
+            %h2 Curriculum
+            %p
+              One of the biggest challenges that you might face when you learn how to code, is to know in which order you should learn things in.
+              We deal with this challenge by offering a unique curriculum developed by professional software engineers and based on real cases and modern best practices.
+            .button-row
+              %p
+                = link_to 'Education Manifesto', 'https://blog.makersacademy.se/education-manifesto/', class: 'button button--horizontal', target: '_blank'
+
+
+%hr
+%section
+  .container
+    %atricle
+      %h2 Foreign students
+      %p.copy--left
+        Our premium package for foreign students is
+        %span
+          %strong €9 500
+        and includes course fee and accommodation in a shared flat during your 3 months stay in Gothenburg, Sweden.
+
+= partial :'apply', locals: { language: 'en' }
