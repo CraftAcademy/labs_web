@@ -5,7 +5,7 @@
       %h1 Learn the craft of coding in Scandinavia
       %h4.subheader
         = 'Spend 12 weeks with Sweden’s #1 Developer Bootcamp<br>and hit the ground running.'.html_safe
-      = partial :'email-capture', locals: { language: 'en' }
+      = partial 'partials/email-capture', locals: { language: 'en' }
 
 %section
   .container
@@ -85,4 +85,4 @@
           %strong €9 500
         and includes course fee and accommodation in a shared flat during your 3 months stay in Gothenburg, Sweden.
 
-= partial :'apply', locals: { language: 'en' }
+= partial 'partials/apply', locals: { language: 'en' }

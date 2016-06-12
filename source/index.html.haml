@@ -8,12 +8,12 @@
       %p
         %strong
           Med Craft Academy Labs når du resultat.
-    =# partial :'email-capture'
+    =# partial 'partials/email-capture'
 
-=# partial :'who_is_it_for'
-=# partial :'course_dates'
+=# partial 'partials/who_is_it_for'
+=# partial 'partials/course_dates'
 =# partial :lms
-=# partial :'apply'
+=# partial 'partials/apply'
 
 %section
   .container
@@ -40,4 +40,4 @@
           %h3 Stockholm
           %p I Stockholm hittar du oss på OpenLab på Valhallavägen 79 (I närheten av Tekniska Högskolan).
 
-=# partial :'apply', locals: { page: :employers }
+=# partial 'partials/apply', locals: { page: :employers }

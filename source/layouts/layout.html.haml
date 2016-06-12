@@ -18,21 +18,21 @@
     - else
       = display_meta_tags site: 'Programmering | Lär dig programmera på 12 veckor med Craft Academy'
 
-    = partial :'social_media_meta'
-    = partial :'analytics_scripts'
+    = partial 'partials/social_media_meta'
+    = partial 'partials/analytics_scripts'
     %link{href: image_path('favicons/favicon.ico'), rel: 'shortcut icon', type: 'image/x-icon'}/
   -#%link{href: image_path('favicons/favicon-32x32.png'), rel: 'icon', sizes: '32x32', type: 'image/png'}/
   -#%link{href: image_path('favicons/favicon-96x96.png'), rel: 'icon', sizes: '96x96', type: 'image/png'}/
   -#%link{href: image_path('favicons/favicon-16x16.png'), rel: 'icon', sizes: '16x16', type: 'image/png'}/
   %body{class: page_classes}
     -# Tag manager must go in the body, the other analytics scripts go in the head
-    -# = partial :'google_tag_manager'
-    = partial :'deprecated_browser_warning'
-    = partial :'navigation'
+    -# = partial 'partials/google_tag_manager'
+    = partial 'partials/deprecated_browser_warning'
+    = partial 'partials/navigation'
 
     = yield
 
-    = partial :'footer'
+    = partial 'partials/footer'
 
 
     = javascript_include_tag 'all'
