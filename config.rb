@@ -54,10 +54,9 @@ redirect 'apply-for-ronin.html', to: config.apply_form_url
 redirect 'blog.html', to: 'https://blog.craftacademy.se'
 
 activate :deploy do |deploy|
-  deploy.deploy_method          = :rsync
-  deploy.host            = 'craftacademy.se'
+  deploy.deploy_method   = :rsync
+  deploy.host            = 'soundblab@craftacademy.se'
   deploy.path            = '/var/www/html/ca-labs'
-  deploy.user            = 'soundblab'
   deploy.build_before    = true
   deploy.clean           = true
 end
