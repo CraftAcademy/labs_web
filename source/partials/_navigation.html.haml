@@ -41,12 +41,7 @@
             = link_to 'Studenter'.mb_chars.upcase, '/students.html'
         %li{ class: current_if_current_page(current_page, '/employers/') }
           = link_to 'Arbetsgivare'.mb_chars.upcase, '/employers.html'
-        - if current_page.url == '/curriculum/'
-          %li
-            = link_to 'Class'.mb_chars.upcase, config.class_site_url
-        - else
-          %li
-            = link_to 'Läroplan'.mb_chars.upcase, '/curriculum.html'
+
         %li{ class: current_if_current_page(current_page, '/payment/') }
           = link_to 'Priser'.mb_chars.upcase, '/payment.html'
 
