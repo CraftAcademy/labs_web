@@ -1,5 +1,19 @@
+- name: Marcus
+  image: marcus.jpg
+  job_title: Community Manager
+  about:
+
+- name: Thomas
+  image: thomas.jpg
+  job_title: Head Coach
+  about: Thomas är grundaren av Craft Academy och jobbar aktivt med att coacha studenter. På frididen ägnar han sig åt att lära sig om djurhållning och balancerad livsföring samt försöker ta körkort. 
+
+- name: Raoul
+  image: reoul.jpg
+  job_title: Coach - Engeneering
+  about:
+
 - name: Sam
   image: tansaku.jpg
-  job_title: Head of Education
-  about:  Sam holds degrees in Astrophysics, Cognitive Science and Computer Science and speaks Japanese. He is also co-founder of the non-profit project incubator Agile Ventures, and he runs the Funniest Computer Ever (FCE) competition as part of his research on creating humorous chatbots.
-
+  job_title: Senior Adviser
+  about:  Sam har examen i astrofysik, kognitionsvetenskap och datavetenskap och talar japanska. Han är också en av grundarna av den ideella projektinkubatorn Agile Ventures, och han driver Funniest Computer Ever (FCE) utmaningen som en del av sin forskning på att skapa humoristiska chatbots.
