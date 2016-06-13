@@ -6,10 +6,10 @@
 - name: Thomas
   image: thomas.jpg
   job_title: Head Coach
-  about: Thomas är grundaren av Craft Academy och jobbar aktivt med att coacha studenter. På frididen ägnar han sig åt att lära sig om djurhållning och balancerad livsföring samt försöker ta körkort. 
+  about: Thomas är grundaren av Craft Academy och jobbar aktivt med att coacha studenter. På frididen ägnar han sig åt att lära sig om djurhållning och balancerad livsföring samt försöker ta körkort.
 
 - name: Raoul
-  image: reoul.jpg
+  image: raoul.jpg
   job_title: Coach - Engeneering
   about:
 
