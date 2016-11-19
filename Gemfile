@@ -6,7 +6,7 @@ ruby '2.3.1'
 gem 'middleman', '>= 4.0.0'
 
 # Live-reloading plugin
-gem 'middleman-livereload', '~> 3.1.0'
+gem 'middleman-livereload'
 gem 'middleman-gh-pages'
 
 gem 'middleman-meta-tags'
