@@ -6,7 +6,7 @@ module ImageHelper
   end
 
   def avatar_path(image)
-    "avatars/#{image}"
+    "#{image}"
   end
 
 end
