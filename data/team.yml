@@ -1,15 +1,20 @@
 - name: Thomas
-  image: thomas.jpg
+  image: thomas.png
   job_title: Founder - Senior Developer
   about: Thomas är grundaren av Craft Academy och jobbar aktivt med att coacha studenter. På frididen ägnar han sig åt att lära sig om djurhållning och balancerad livsföring samt försöker ta körkort.
 
 - name: Aditya
-  image: adi.jpg
+  image: adi.png
   job_title: Software developer - Business analyst - Certified scrum master
   about: Learner, Thinker, Explorer, Programmer.
 
-- name: Greg
-  image: greg.jpg
-  job_title: Software developer - Production Line manager
-  about: I love the thrill of searching for the right solution, the satisfaction I feel when finding it and producing clean dry code.
+- name: Faraz
+  image: faraz.png
+  job_title: Software developer - Accountant
+  about: Bring order to chaos
 
+
+- name: Noel
+  image: noel.png
+  job_title: Software developer - Service industry specialist
+  about:

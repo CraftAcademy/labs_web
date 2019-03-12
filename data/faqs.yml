@@ -14,15 +14,15 @@
 - category_name: About Craft Academy Labs
   faqs:
     - question: Why is it called Craft Academy Labs?
-      answer: ''
+      answer: 'Craft Academy Labs sprung out from Craft Academy which is a coding bootcamp'
 
 - category_name: Working with us
   faqs:
     - question: What technologies do you use? 
-      answer: ''
+      answer: 'We use modern technologies and constantly add new technologies as we need them'
 
     - question: Have you worked with businesses in my industry?
-      answer: ''
+      answer: 'No idea, get in touch and find out'
 
     - question: What does your process look like?
       answer: ''
@@ -33,4 +33,7 @@
       answer: ''
 
     - question: Phadder.se
+      answer: ''
+
+    - question: Tribal.se
       answer: ''
