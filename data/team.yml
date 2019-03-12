@@ -1,15 +1,15 @@
 - name: Thomas
-  avatar: https://raw.githubusercontent.com/CraftAcademyLabs/assets/master/adi_ca_avatar.jpg?token=AXtjusZaksEuoo_9ICSOyYq_adNmm_Fxks5cimh5wA%3D%3D
+  image: thomas.jpg
   job_title: Founder - Senior Developer
   about: Thomas är grundaren av Craft Academy och jobbar aktivt med att coacha studenter. På frididen ägnar han sig åt att lära sig om djurhållning och balancerad livsföring samt försöker ta körkort.
 
 - name: Aditya
-  avatar: https://raw.githubusercontent.com/CraftAcademyLabs/assets/master/adi_ca_avatar.jpg?token=AXtjukwlVWety70HW8TfwZlN7ar3i3woks5cimSLwA%3D%3D
+  image: adi.jpg
   job_title: Software developer - Business analyst - Certified scrum master
   about: Learner, Thinker, Explorer, Programmer.
 
 - name: Greg
-  avatar: https://raw.githubusercontent.com/CraftAcademyLabs/assets/master/adi_ca_avatar.jpg?token=AXtjusZaksEuoo_9ICSOyYq_adNmm_Fxks5cimh5wA%3D%3D
+  image: greg.jpg
   job_title: Software developer - Production Line manager
   about: I love the thrill of searching for the right solution, the satisfaction I feel when finding it and producing clean dry code.
 
