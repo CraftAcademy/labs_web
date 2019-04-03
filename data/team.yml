@@ -1,19 +1,20 @@
-- name: Marcus
-  image: marcus.jpg
-  job_title: Community Manager
-  about:
-
 - name: Thomas
-  image: thomas.jpg
-  job_title: Head Coach
+  image: thomas.png
+  job_title: Founder - Senior Developer
   about: Thomas är grundaren av Craft Academy och jobbar aktivt med att coacha studenter. På frididen ägnar han sig åt att lära sig om djurhållning och balancerad livsföring samt försöker ta körkort.
 
-- name: Raoul
-  image: raoul.jpg
-  job_title: Coach - Engeneering
-  about:
+- name: Aditya
+  image: adi.png
+  job_title: Software developer - Business analyst - Certified scrum master
+  about: Learner, Thinker, Explorer, Programmer.
 
-- name: Sam
-  image: tansaku.jpg
-  job_title: Senior Adviser
-  about:  Sam har examen i astrofysik, kognitionsvetenskap och datavetenskap och talar japanska. Han är också en av grundarna av den ideella projektinkubatorn Agile Ventures, och han driver Funniest Computer Ever (FCE) utmaningen som en del av sin forskning på att skapa humoristiska chatbots.
+- name: Faraz
+  image: faraz.png
+  job_title: Software developer - Accountant
+  about: Bring order to chaos
+
+
+- name: Noel
+  image: noel.png
+  job_title: Software developer - Service industry specialist
+  about:
