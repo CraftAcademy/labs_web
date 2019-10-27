@@ -9,4 +9,8 @@ module ImageHelper
     "avatars/#{image}"
   end
 
+  def icon_path(image)
+    "icons/#{image}"
+  end
+
 end

@@ -1,15 +1,29 @@
-%section.full-slider.no-padding
+:css
+  .image-avatar {
+    max-height: 40%;
+    width: auto;
+  }
+  .image-avatar-mobile {
+    max-height: auto;
+    width: 50%;
+    padding-bottom: 5vw;
+  }
+%section
+  .centered-row
+    %h2 MEET OUR PEOPLE
+    %p 
+      Craft Academy Labs is made out by a small team of individuals who share a passion for digital transformation, and for achieving the very best in everything they do. 
   .slider
     - data.team.each do | team_member |
       .slide
         .container
           .profile-row
             .image.show-desktop
-              = image_tag avatar_path(team_member[:image])
+              = image_tag avatar_path(team_member[:image]), class: 'image-avatar'
             .copy
               %h2= team_member[:name]
               %h4.subheader= team_member[:job_title]
               %p= team_member[:about]
               .button-row.shift-to-bottom
             .image.hide-desktop.no-padding
-              = image_tag avatar_path(team_member[:image])
+              = image_tag avatar_path(team_member[:image]), class: 'image-avatar-mobile'
