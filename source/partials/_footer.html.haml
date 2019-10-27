@@ -1,5 +1,9 @@
 %footer{role: 'contentinfo'}
   .container
+    .footer-logos
+      .footer-logo{style: 'margin-top: 20px;'}
+        = image_tag 'logo/graphic_only_logo_white.png', class: 'logo'
+
     .footer-links
       - if current_page.url == '/pretoria/'
         %ul.column
@@ -53,7 +57,7 @@
             = link_to 'Blog', 'https://medium.com/craft-academy', target: '_blank'
         %ul.column
           %li
-            %h3 Kontakt
+            %h3 Contakt
           %li
             %address.vcard
               %span.email
@@ -73,16 +77,13 @@
                   %br
               .tel
                 = link_to '+46 (0)723 6125 27', 'tel:0723 612527'
-        %ul.column
-          %li
-            %h3 Legal stuff
-          %li
-            = link_to 'Allmänna villkor', '/terms.html'
-          %li
-            = link_to 'Privacy Policy', '/privacy.html'
-    .footer-logos
-      .footer-logo
-        = image_tag 'logo/graphic_only_logo_white.png', class: 'logo'
+        -# %ul.column
+        -#   %li
+        -#     %h3 Legal stuff
+        -#   %li
+        -#     = link_to 'Allmänna villkor', '/terms.html'
+        -#   %li
+        -#     = link_to 'Privacy Policy', '/privacy.html'
     .footer-copyright
       %p
         - if current_page.url == '/pretoria/'
@@ -90,4 +91,4 @@
             = "Craft Academy is a service provided by ThinkBots Pty Ltd. &copy; #{Time.now.year}"
         - else
           %small
-            = "Craft Academy är en utbildningstjänst från Pragmatic Labs AB. &copy; #{Time.now.year}"
+            = "Craft Academy Labs is a service provided by Pragmatic Labs AB &copy; #{Time.now.year}"

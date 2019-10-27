@@ -1,9 +1,7 @@
 %section
   .container
     .centered-row
-      -# %h4.leader Optional Leader
       %h2 Agile Team As A Service
-      -# %h4.subheader Optional Subheader
       %p 
         Build your product with a team that establishes a clear design process, meets deadlines and delivers well-engineered and engaging solutions.
         Our developers, designers and Devops will bring your ideas to life.
@@ -12,23 +10,52 @@
         = image_tag icon_path("experience.svg"), class: "image--medium"
         %h4 EXPERIENCE
         %p We have worked with many entrepreneurs to launch projects. Let us share our experience with you.
-        -# .button-row
-        -#   %p= link_to "Optional CTA", "#", target: "_blank", class: "button button--horizontal"
       .column
         = image_tag icon_path("expertise.svg"), class: "image--medium"
         %h4 TECH EXPERTISE
-        %p Our specific tech expertise is the optimal choice for buildin an MVP or take your product to a new level.
-        -# .button-row
-        -#   %p= link_to "Optional CTA", "#", target: "_blank", class: "button button--horizontal"
+        %p Our specific tech expertise is the optimal choice for building an MVP or take your product to a new level.
       .column
         = image_tag icon_path("partnership.svg"), class: "image--medium"
         %h4 PARTNERSHIP
         %p Engaging applications are designed and built in close collaboration between business people and developers.
-        -# .button-row
-        -#   %p= link_to "Optional CTA", "#", target: "_blank", class: "button button--horizontal"
       .column
         = image_tag icon_path("projection.svg"), class: "image--medium"
         %h4 LEAN + AGILE = SUCCESS
         %P Lean approach and an Agile mindset in development makes us flexible to changes, but strict to deadlines.
-        -# .button-row
-        -#   %p= link_to "Optional CTA", "#", target: "_blank", class: "button button--horizontal"
+%section
+  :css
+    .image-tech {
+      max-height: 2.5em;
+      width: auto;
+    }
+  .container
+    .centered-row
+      %h4.leader Proven and reliable
+      %h2 Technologies
+      %p Proven, reliable, and modern technology solutions ensures performance and security.
+    .four-width-row
+      .column
+        .image--centered
+          = image_tag "technologies/ca_javascript.svg", class: 'image-tech'
+      .column
+        .image--centered
+          = image_tag "technologies/ca_ruby.svg", class: 'image-tech'
+      .column
+        .image--centered
+          = image_tag "technologies/ca_rails.svg", class: 'image-tech'
+      .column
+        .image--centered
+          = image_tag "technologies/ca_node.svg", class: 'image-tech'
+    .four-width-row
+      .column
+        .image--centered
+          = image_tag "technologies/ca_react.svg", class: 'image-tech'
+      .column
+        .image--centered
+          = image_tag "technologies/ca_redux.svg", class: 'image-tech'
+      .column
+        .image--centered
+          = image_tag "technologies/ca_cypress.svg", class: 'image-tech'
+      .column
+        .image--centered
+          = image_tag "technologies/ca_jest.svg", class: 'image-tech'
