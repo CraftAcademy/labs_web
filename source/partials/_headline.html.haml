@@ -1,10 +1,13 @@
-- description 'Agile teams that connects the dots - Business, People, Technology'
+- description 'PRODUCT STRATEGY FOR STARTUPS. Connect the dots - Business, People, Technology'
 %section.hero-splash{style: "background: linear-gradient(rgba(41, 50, 57, 0.2), rgba(62, 70, 76, 0.4)), url('https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=749&q=80') center no-repeat; background-size: cover !important;"}
-  .container
-    %h4.leader CRAFT ACADEMY LABS
+  .container{style: 'min-height: 50vh; padding-top: 10%;'}
+    .hide-desktop
+      .image--centered
+        = image_tag 'logo/graphic_only_logo_white.png'
+    %h4.leader= 'PRODUCT STRATEGIES FOR STARTUPS'.html_safe
     %h1
-      = 'Get your MVP finally built'.html_safe
+      = 'We bring ideas to life'.html_safe
     %h4
-      = 'Agile teams as a service'.upcase
-    .container
-    = link_to 'Learn More', 'mailto:info@craftacademy.se', class: 'button button--horizontal'
+      = 'Connect the dots - Business, People, Technology'.upcase
+    -# .container
+    -#   = link_to 'Learn More', 'mailto:info@craftacademy.se', class: 'button button--horizontal'
